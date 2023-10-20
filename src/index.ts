@@ -95,7 +95,6 @@ function Email(target: any, propertyKey: string) {
   });
 }
 
-// Приклад використання
 class User {
   @DeprecatedMethod("This method is no longer supported.", "newMethod")
   oldMethod() {
